@@ -41,33 +41,7 @@ const Experiences = () => {
 				</fieldset>
 			</div>
 
-			<br/>
-
-			<div className={styles.container}>
-				<div className={styles.position}>
-				Management Information System Executive{' '}
-					<a href='/'>Bee Aar Controls Engineering Pvt. Ltd </a>
-				</div>
-				<div className={styles.date}>March 2017 - Febuary 2019</div>
-				<fieldset className={styles.responsibilites}>
-					<legend>
-						<h3> Roles & responsibilites </h3>
-					</legend>
-					<ul>
-						<li>
-						Worked on Flat File Database.
-
-							
-						</li>
-						<li>Created over 1500 vendor’s database. 
-							
-						</li>
-						
-					
-					</ul>
-				</fieldset>
-			</div>
-
+			
 
             <br/>
 
@@ -79,7 +53,7 @@ const Experiences = () => {
         
     </div>
     
-    <div className={styles.date}>November 2915 - January 2017</div>
+    <div className={styles.date}>November 2015 - January 2019</div>
     <fieldset className={styles.responsibilites}>
         <legend>
             <h3> Roles & responsibilites </h3>

@@ -84,7 +84,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1vIBUoJgRB_KUiFY1d4uveCbYIIvw05He/view?usp=sharing' // Resume
+							href='https://drive.google.com/file/d/14a3ZQJBGqVgZwt4GMR3kECnrmoOhXhsY/view?usp=sharing' // Resume
 							target='blank'
 						>
 							<Button
@@ -110,8 +110,8 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://avatars.githubusercontent.com/u/97507317?v=4' //my Picture
-						alt='Profile pic'
+						src='https://github.com/RahulGaurr/images/blob/main/my_linkedin_pic_updated-removebg-preview.png?raw=true' //my Picture
+						alt='Profile pic' 
 					/>
 				</div>
 			</div>
