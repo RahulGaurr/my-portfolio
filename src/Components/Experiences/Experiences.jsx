@@ -16,11 +16,11 @@ const Experiences = () => {
 
 			<div className={styles.container}>
 				<div className={styles.position}>
-				UI Developer{' '} <br />
+				Froent-End Developer{' '} <br />
                 
 					<a href=''> Pragra</a>
 				</div>
-				<div className={styles.date}>March 2019 - September 2021</div>
+				<div className={styles.date}>March 2019 - November 2021</div>
 				<fieldset className={styles.responsibilites}>
 					<legend>
 						<h3> Roles & responsibilites </h3>
@@ -49,7 +49,7 @@ const Experiences = () => {
     <div className={styles.position}>
     Creative Coordinator{' '}
     <br />
-        <a href='/'>KEC Group </a>
+        <a href='/'>Khushi Eventt Creations </a>
         
     </div>
     
@@ -61,9 +61,10 @@ const Experiences = () => {
         <ul>
             <li>
             It is an event management company where, I worked on managing events.
-
-                
             </li>
+			<li>
+			basic working experience with Adobe Photoshop and Corel Draw
+			</li>
             
             
         

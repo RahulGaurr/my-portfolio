@@ -79,12 +79,12 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-					I am a goal-oriented, productive and aspiring MERN-Stack web developer. Excited to become an integral part of an organization. 
+					I am a goal-oriented, productive <br></br> MERN-Stack web developer.Excited <br></br> to become an integral part of an <br></br>organization. 
                     {/* and make a significant contribution to its innovations. */}
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/14a3ZQJBGqVgZwt4GMR3kECnrmoOhXhsY/view?usp=sharing' // Resume
+							href='https://drive.google.com/file/d/1IbQwXj2_Ph-RALcfvnqjq-QxHlKWF_rH/view?usp=sharing' alt="pics"// Resume
 							target='blank'
 						>
 							<Button
