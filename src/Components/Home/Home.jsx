@@ -164,7 +164,7 @@ const Home = ({ scrollRef }) => {
 				</div>
 				<Button
 					text={
-						projects.length == 3
+						projects.length == 7
 							? 'Show More'
 							: 'Show Less'
 					}

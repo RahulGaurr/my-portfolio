@@ -9,6 +9,15 @@ export const projects = [
 		technologies: [ " MERN Stack || UI Liabrary: Material UI"],
 	},
 	{
+		img: 'https://raw.githubusercontent.com/RahulGaurr/Job-Portal-Application/master/server/Screenshot%20(2961).png?token=GHSAT0AAAAAABZLDTV4RKDI7ERSPYA3VAJOYZXL5UA',
+		title: 'Job Portal App',
+		des: "A job portal application where you can view all jobs, apply for the job as an applicant and post jobs as a recruiter",
+		demo: '',
+		live: "https://jobportalmernstack.herokuapp.com/",
+		gitHub: 'https://github.com/RahulGaurr/Job-Portal-Application.git',
+		technologies: [ " MERN Stack || UI Liabrary: Material UI"],
+	},
+	{
 		img: 'https://github.com/RahulGaurr/CRUD-MERN/blob/master/server/crud-admin-dashboard.png?raw=true',
 		title: 'Admin Panel Dashboard',
 		des: "admin panel dashboard ",

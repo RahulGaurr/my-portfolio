@@ -81,7 +81,7 @@ const TechStacks = () => {
 				>
 					<i
 						style={{ color: '#509941' }}
-						className='devicon-nodejs-original'
+						className="devicon-nodejs-plain"
 					/>
 					<span>Node</span>
 				</div>
