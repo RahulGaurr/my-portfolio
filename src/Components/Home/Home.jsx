@@ -85,7 +85,7 @@ const Home = ({ scrollRef }) => {
 					<div className={styles.btndiv} style={{display:"flex", gap:15}}>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1GVh5tQ2UUccOaCTWdLnk-zPZaKWp74Zm/view?usp=sharing' alt="resume"// Resume
+							href='https://drive.google.com/file/d/14dFeWwyXVl4fdJX4Y2fmyQmAhjaezo0R/view?usp=sharing' alt="resume"// Resume
 							target='blank'
 						>
 							<Button
@@ -102,7 +102,7 @@ const Home = ({ scrollRef }) => {
 
 					<div className={styles.btn }>
 						<a
-							href='https://drive.google.com/uc?export=download&id=1GVh5tQ2UUccOaCTWdLnk-zPZaKWp74Zm' alt="resume"// Resume
+							href='https://drive.google.com/uc?export=download&id=14dFeWwyXVl4fdJX4Y2fmyQmAhjaezo0R' alt="resume"// Resume
 							target='blank'
 						>
 							<Button
