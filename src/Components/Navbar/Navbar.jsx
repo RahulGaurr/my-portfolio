@@ -51,7 +51,7 @@ const Navbar = () => {
 			style={{
 				background: `${newTheme.background}`,
 				boxShadow: `3px 3px 10px ${newTheme.line}`,
-			}}
+							}}
 		> 
 			<div className={styles.navbar}> 
 				<a target='blank'> 

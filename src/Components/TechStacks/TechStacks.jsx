@@ -105,7 +105,58 @@ const TechStacks = () => {
 					<i className='devicon-mongodb-plain colored' />
 					<span>MongoDB</span>
 				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					
+					<img style={{width:50}} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt='my sql' />
+          
+					<span>My SQL</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					
+					<img style={{width:44}} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt='next js'/>
+          
+					<span style={{marginTop:"7px"}}>Next js</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					
+					<img style={{width:40}} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt='typescript' />
+          
+					<span style={{marginTop:"7px"}}>TypeScript</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					
+					<img style={{width:44, height:54}} src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt='tailwind css'/>
+          
+					<span>Tailwind CSS</span>
+				</div>
+				
+				
 			</div>
+			
 		</div>
 	);
 };

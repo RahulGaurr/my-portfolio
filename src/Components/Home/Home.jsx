@@ -79,18 +79,19 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-					I am a goal-oriented, productive <br></br> MERN-Stack web developer.Excited <br></br> to become an integral part of an <br></br>organization. 
+					I am a goal-oriented & productive <br></br> software developer.Excited to <br></br> become an integral part of an <br></br>organization. 
                     {/* and make a significant contribution to its innovations. */}
 					</h1>
+					<div className={styles.btndiv} style={{display:"flex", gap:15}}>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1IbQwXj2_Ph-RALcfvnqjq-QxHlKWF_rH/view?usp=sharing' alt="pics"// Resume
+							href='https://drive.google.com/file/d/1GVh5tQ2UUccOaCTWdLnk-zPZaKWp74Zm/view?usp=sharing' alt="resume"// Resume
 							target='blank'
 						>
 							<Button
 								text={
 									<span className={styles.resumeBtn}>
-										<span>Resume</span>{' '}
+										<span>View Resume</span>{' '}
 										<i className='fas fa-file-download'></i>
 									</span>
 								}
@@ -98,6 +99,26 @@ const Home = ({ scrollRef }) => {
 							/>
 						</a>
 					</div>
+
+					<div className={styles.btn }>
+						<a
+							href='https://drive.google.com/uc?export=download&id=1GVh5tQ2UUccOaCTWdLnk-zPZaKWp74Zm' alt="resume"// Resume
+							target='blank'
+						>
+							<Button
+								text={
+									<span className={styles.resumeBtn}>
+										<span>Download Resume</span>{' '}
+										<i className='fas fa-file-download'></i>
+									</span>
+								}
+								handleButton={handleButton}
+							/>
+						</a>
+					</div>
+					</div>
+
+					
 				</div>
 
 				<div
@@ -110,7 +131,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://github.com/RahulGaurr/images/blob/main/my_linkedin_pic_updated-removebg-preview.png?raw=true' //my Picture
+						src='Images/professionalPic.jpg' //my Picture
 						alt='Profile pic' 
 					/>
 				</div>
@@ -164,7 +185,7 @@ const Home = ({ scrollRef }) => {
 				</div>
 				<Button
 					text={
-						projects.length == 7
+						projects.length === 7
 							? 'Show More'
 							: 'Show Less'
 					}

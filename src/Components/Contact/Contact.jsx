@@ -16,8 +16,8 @@ const Contact = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.paragraph}
 				>
-					I'm actively looking for any new opportunities, in
-					full-stack web development.
+					I'm actively looking for new opportunities, in
+					Software Development.
 				</p>
 				<div
 					style={{ color: `${newTheme.title}` }}

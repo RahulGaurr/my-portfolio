@@ -30,14 +30,12 @@ const About = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.aboutMe}
 				>
-					Hello! My name is Rahul Gaur and I enjoy creating things that
-					live on the internet.
-					<br /> Fast Forwarding to today, I built a number of web
-					applications and 4 major projects. Learned a great deal
-					about teamwork, leadership, and communication.
+					Highly skilled and adaptable Frontend Developer with expertise in front-end technologies. Proven
+					track record of creating responsive, user-friendly web applications. Strong problem-solving abilities and a dedication
+					 to writing clean and maintainable code. Eager to contribute technical prowess to drive the success of innovative projects.
 					<span style={{ color: `#00a0a0` }}>
 						{' '}
-						looking for an opportunity as a full stack web developer
+						Looking for an opportunity as a software developer
 					</span>
 					.
 				</p>
